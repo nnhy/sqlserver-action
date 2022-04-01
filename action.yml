@@ -1,0 +1,10 @@
+name: 'SqlServer in GitHub Actions'
+description: '启动一个SqlServer，用于单元测试'
+
+branding:
+  icon: 'database'
+  color: 'green'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
